@@ -1,0 +1,181 @@
+body{
+
+    font-family: Tahoma;
+
+    color: #444;
+    
+    letter-spacing: 1px;
+
+}
+
+
+
+#wrapper h1, h2{
+
+    font-weight: normal;
+    text-align: center;
+
+}
+
+
+
+#wrapper {
+
+    width: 100%;
+    background: lightblue;
+    text-align: center;
+    max-width: 1000px;
+
+    margin: 20px auto;
+
+    border-radius: 6px;
+
+    box-shadow: 0px 1px 6px rgba(241, 94, 26, 0.2);
+
+    box-sizing: border-box;
+
+    padding: 0 0 20px;
+
+    overflow: hidden;
+
+    border: 1px solid green;
+
+}
+
+
+
+#shoppingItems li {
+
+    width: 100%;
+
+    max-width: 900px;
+
+    margin: 10px auto;
+
+    float: left;
+    
+
+    background-color: lightpink;
+
+    box-sizing: border-box;
+
+    padding: 2px;
+
+    border: 1px solid rgb(221, 14, 14);
+
+    border-radius: 4px;
+
+    font-size: 16px;
+
+    color: #444;
+
+}
+
+
+
+#wrapper li:hover{
+
+    border-color: #9361bf;
+
+}
+
+
+
+.delete{
+
+    float: right;
+    
+    background: #9361bf;
+
+    padding: 4px;
+
+    border-radius: 4px;
+
+    cursor: pointer;
+
+    color: white;
+
+}
+
+
+
+.delete:hover{
+
+    background: #333;
+
+}
+
+
+
+.edit{
+
+    float: right;
+    
+    background: #9361bf;
+
+    padding: 4px;
+
+    border-radius: 4px;
+
+    cursor: pointer;
+
+    color: white;
+
+}
+
+
+
+.edit:hover{
+
+    background: #333;
+
+}
+
+
+
+
+
+
+
+
+/*
+
+#tabbed-content li{
+
+    display: inline-block;
+
+    padding: 10px 14px;
+
+    background: #ddd;
+
+    border-radius: 4px;
+
+    cursor: pointer;
+
+    margin-right: 10px;
+
+}
+
+
+
+#tabbed-content .tab{
+
+    display: none;
+
+    border: 1px solid #ddd;
+
+    padding: 0 10px;
+
+    border-radius: 4px;
+
+}
+
+
+
+#tabbed-content .tab.active{
+
+    display: block;
+
+}
+
+*/
